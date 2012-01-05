@@ -33,19 +33,19 @@ div {
 	border: 1px solid #00548C;	
 }
 .left {
-    background: url("img/icons.png") no-repeat scroll -22px 3px #FFFFFF;
+    background: url("../img/icons.png") no-repeat scroll -22px 3px #FFFFFF;
 }
 .left:hover {
-    background: url("img/icons.png") no-repeat scroll -22px -22px #FFFFFF;
+    background: url("../img/icons.png") no-repeat scroll -22px -22px #FFFFFF;
 }
 .right {
-    background: url("img/icons.png") no-repeat scroll 4px 3px #FFFFFF;
+    background: url("../img/icons.png") no-repeat scroll 4px 3px #FFFFFF;
 }
 .right:hover {
-    background: url("img/icons.png") no-repeat scroll 4px -22px #FFFFFF;
+    background: url("../img/icons.png") no-repeat scroll 4px -22px #FFFFFF;
 }
 .close {
-    background: url("img/icons.png") no-repeat scroll -48px 1px #FFFFFF;
+    background: url("../img/icons.png") no-repeat scroll -48px 1px #FFFFFF;
 }
 .close:hover {
-    background: url("img/icons.png") no-repeat scroll -48px -22px #FFFFFF;}
+    background: url("../img/icons.png") no-repeat scroll -48px -22px #FFFFFF;}
