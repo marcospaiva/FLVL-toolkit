@@ -1,53 +1,1 @@
-@charset "utf-8";
-
-* {
-    background: none repeat scroll 0 0 transparent;
-    font-family: inherit;
-    font-size: 100%;
-    margin: 0;
-    outline: 0 none;
-    padding: 0;
-}
-body {
-    background-color: #F8FAFA;
-    font-family: Arial,Helvetica,sans-serif;
-}
-div {
-	margin: 15px;
-}
-.effect {
-    border: 1px solid #00548C;
-    border-radius: 2px;
-	-moz-border-radius:2px;
-	-webkit-border-radius:2px;
-    height: 22px;
-    width: 22px;
-}
-.effect:hover {
-    border: 1px solid #0099FF;
-	background-color:#0099FF !important;
-}
-.effect:active {
-	-moz-box-shadow: inset 0px 1px 2px #00548C;
-	-webkit-box-shadow: inset 0px 1px 2px #00548C;
-	box-shadow: inset 0px 1px 2px #00548C;
-	border: 1px solid #00548C;	
-}
-.left {
-    background: url("img/icons.png") no-repeat scroll -22px 3px #FFFFFF;
-}
-.left:hover {
-    background: url("img/icons.png") no-repeat scroll -22px -22px #FFFFFF;
-}
-.right {
-    background: url("img/icons.png") no-repeat scroll 4px 3px #FFFFFF;
-}
-.right:hover {
-    background: url("img/icons.png") no-repeat scroll 4px -22px #FFFFFF;
-}
-.close {
-    background: url("img/icons.png") no-repeat scroll -48px 1px #FFFFFF;
-}
-.close:hover {
-    background: url("img/icons.png") no-repeat scroll -48px -22px #FFFFFF;
-}
+@charset "utf-8";* {    background: none repeat scroll 0 0 transparent;    font-family: inherit;    font-size: 100%;    margin: 0;    outline: 0 none;    padding: 0;}body {    background-color: #F8FAFA;    font-family: Arial,Helvetica,sans-serif;}div {	margin: 15px;}.effect {    border: 1px solid #00548C;    border-radius: 2px;	-moz-border-radius:2px;	-webkit-border-radius:2px;    height: 22px;    width: 22px;}.effect:hover {    border: 1px solid #0099FF;	background-color:#0099FF !important;}.effect:active {	-moz-box-shadow: inset 0px 1px 2px #00548C;	-webkit-box-shadow: inset 0px 1px 2px #00548C;	box-shadow: inset 0px 1px 2px #00548C;	border: 1px solid #00548C;	}.left {    background: url("img/icons.png") no-repeat scroll -22px 3px #FFFFFF;}.left:hover {    background: url("img/icons.png") no-repeat scroll -22px -22px #FFFFFF;}.right {    background: url("img/icons.png") no-repeat scroll 4px 3px #FFFFFF;}.right:hover {    background: url("img/icons.png") no-repeat scroll 4px -22px #FFFFFF;}.close {    background: url("img/icons.png") no-repeat scroll -48px 1px #FFFFFF;}.close:hover {    background: url("img/icons.png") no-repeat scroll -48px -22px #FFFFFF;}
