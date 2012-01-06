@@ -21,19 +21,19 @@ div, h1 {
 	-moz-border-radius:2px;
 	-webkit-border-radius:2px;
     height: 22px; 
-	
-    width: 22px;
+	width: 22px;
+	cursor: pointer;
 }
-.effect:hover {
-    border: 1px solid #0099FF;
-	background-color:#0099FF !important;
-}
-.effect:active {
-	-moz-box-shadow: inset 0px 1px 2px #00548C;
-	-webkit-box-shadow: inset 0px 1px 2px #00548C;
-	box-shadow: inset 0px 1px 2px #00548C;
-	border: 1px solid #00548C;	
-}
+	.effect:hover {
+    	border: 1px solid #0099FF;
+		background-color:#0099FF !important;
+	}
+		.effect:active {
+			-moz-box-shadow: inset 0px 1px 2px #00548C;
+			-webkit-box-shadow: inset 0px 1px 2px #00548C;
+			box-shadow: inset 0px 1px 2px #00548C;
+			border: 1px solid #00548C;	
+		}
 
 /* Buttons */
 .left, a.jquery-carousel-left {
@@ -41,17 +41,17 @@ div, h1 {
 	text-indent:-9999px;
 	display: block;
 }
-.left:hover,  a.jquery-carousel-left:hover {
-    background: url("../img/icons.png") no-repeat scroll -22px -22px #FFFFFF;
-}
+	.left:hover,  a.jquery-carousel-left:hover {
+    	background: url("../img/icons.png") no-repeat scroll -22px -22px #FFFFFF;
+	}
 .right, a.jquery-carousel-right {
     background: url("../img/icons.png") no-repeat scroll 4px 3px #FFFFFF;
 	text-indent:-9999px;
-	display: block;	
+	display: block;
 }
-.right:hover , a.jquery-carousel-right:hover {
-    background: url("../img/icons.png") no-repeat scroll 4px -22px #FFFFFF;
-}
+	.right:hover , a.jquery-carousel-right:hover {
+    	background: url("../img/icons.png") no-repeat scroll 4px -22px #FFFFFF;
+	}
 
 	
 /*global search*/
@@ -123,26 +123,27 @@ div, h1 {
     padding: 0 3px;
     text-indent: -999em;
     width: 14px;
+    cursor: pointer;
 }
-.ball:hover {
-    background: url("../img/icons.png") no-repeat scroll -123px -24px transparent;
-}
+	.ball:hover {
+    	background: url("../img/icons.png") no-repeat scroll -123px -24px transparent;
+	}
 .active-ball {
     background: url("../img/icons.png") no-repeat scroll -100px -3px transparent;
 }
-.active-ball:hover {
-    background: url("../img/icons.png") no-repeat scroll -100px -24px transparent;
-}
+	.active-ball:hover {
+    	background: url("../img/icons.png") no-repeat scroll -100px -24px transparent;
+	}
 
 /* Slider position */
-.slider-ball {
+.slider-navigation {
 	position:relative;
     display: inline-block;	
 }
-.slider-ball ul li {
-	float:left;
-    list-style: none outside none;
-}
+	.slider-navigation ul li {
+		float:left;
+    	list-style: none outside none;
+	}
 .carousel-wrap {
     border: 1px solid #B2B2B2;
     display: inline-block;
