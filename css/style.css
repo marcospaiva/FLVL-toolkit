@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     background: none repeat scroll 0 0 transparent;
     font-family: inherit;
@@ -11,10 +10,11 @@ body {
     background-color: #F8FAFA;
     font-family: Arial,Helvetica,sans-serif;
 }
-div {
+div, h1 {
 	margin: 15px;
 }
 
+/* Effect button */
 .effect {
     border: 1px solid #00548C;
     border-radius: 2px;
@@ -34,27 +34,25 @@ div {
 	box-shadow: inset 0px 1px 2px #00548C;
 	border: 1px solid #00548C;	
 }
-.left {
+
+/* Buttons */
+.left, a.jquery-carousel-left {
     background: url("../img/icons.png") no-repeat scroll -22px 3px #FFFFFF;
+	text-indent:-9999px;
+	display: block;
 }
-.left:hover {
+.left:hover,  a.jquery-carousel-left:hover {
     background: url("../img/icons.png") no-repeat scroll -22px -22px #FFFFFF;
 }
-.right {
+.right, a.jquery-carousel-right {
     background: url("../img/icons.png") no-repeat scroll 4px 3px #FFFFFF;
+	text-indent:-9999px;
+	display: block;	
 }
-.right:hover {
+.right:hover , a.jquery-carousel-right:hover {
     background: url("../img/icons.png") no-repeat scroll 4px -22px #FFFFFF;
 }
-.close {
-    background: url("../img/icons.png") no-repeat scroll -48px 1px #FFFFFF;
-}
-.close:hover {
-    background: url("../img/icons.png") no-repeat scroll -48px -22px #FFFFFF;}
-	
-	
-	
-	
+
 	
 /*global search*/
 #global_search fieldset label{background: url("../img/icons.png") no-repeat scroll 0 0 #f2f2f2;text-indent:-1000px;}
@@ -114,3 +112,53 @@ div {
 	box-shadow: inset 0px 1px 2px #00548C;
 	border: 1px solid #00548C}
 	#global_search .submit_hover{background-color:#fff;border-color:#0099FF;}
+
+
+/* Ball */
+.ball {
+    background: url("../img/icons.png") no-repeat scroll -99px -5px transparent;
+    display: inline-block;
+    height: 14px;
+    padding: 0 3px;
+    text-indent: -999em;
+    width: 14px;
+}
+.ball:hover {
+    background: url("../img/icons.png") no-repeat scroll -99px -21px transparent;
+}
+.active-ball {
+    background: url("../img/icons.png") no-repeat scroll -83px -5px transparent;
+}
+.active-ball:hover {
+    background: url("../img/icons.png") no-repeat scroll -83px -21px transparent;
+}
+
+/* Slider position */
+.slider-ball {
+	position:relative;
+    display: inline-block;	
+}
+.slider-ball ul li {
+	float:left;
+    list-style: none outside none;
+}
+.carousel-wrap {
+    border: 1px solid #B2B2B2;
+    display: inline-block;
+    margin: 0 5px 15px;
+    vertical-align: middle;
+    width: 176px;	
+}
+a.jquery-carousel-left {
+	position:absolute;
+    left: 5%;	
+}
+a.jquery-carousel-right {
+	position:absolute;
+    right: 5%;	
+}
+.center-wrap {
+    margin: -10px auto 0;
+    text-align: center;
+    width: 100%;
+}
