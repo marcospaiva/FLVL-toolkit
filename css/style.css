@@ -105,7 +105,6 @@ div, h1 {
 		-moz-border-radius-bottomright: 2px;
 		border-top-right-radius: 2px;
 		border-bottom-right-radius: 2px;
-		
 	}
 	#global_search .submit:active{background:#0099FF;-moz-box-shadow: inset 0px 1px 2px #00548C;
 	-webkit-box-shadow: inset 0px 1px 2px #00548C;
@@ -116,7 +115,7 @@ div, h1 {
 
 /* Ball */
 .ball {
-    background: url("../img/icons.png") no-repeat scroll -99px -5px transparent;
+    background: url("../img/icons.png") no-repeat scroll -123px -3px transparent;
     display: inline-block;
     height: 14px;
     padding: 0 3px;
@@ -124,13 +123,13 @@ div, h1 {
     width: 14px;
 }
 .ball:hover {
-    background: url("../img/icons.png") no-repeat scroll -99px -21px transparent;
+    background: url("../img/icons.png") no-repeat scroll -123px -24px transparent;
 }
 .active-ball {
-    background: url("../img/icons.png") no-repeat scroll -83px -5px transparent;
+    background: url("../img/icons.png") no-repeat scroll -100px -3px transparent;
 }
 .active-ball:hover {
-    background: url("../img/icons.png") no-repeat scroll -83px -21px transparent;
+    background: url("../img/icons.png") no-repeat scroll -100px -24px transparent;
 }
 
 /* Slider position */
