@@ -4,35 +4,32 @@
 		<meta charset="utf-8">
 		<title>FLVL - toolkit</title>
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="flvl-toolkit">
-
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/jquery.carousel.min.js"></script>
+		<script type="text/javascript">
+    		$(function(){
+        		// Carousel div
+				$("div.slider-ball").carousel( { 
 		
-
-<script type="text/javascript">
-    $(function(){
-        // Carousel div
-		$("div.slider-ball").carousel( { 
+					// Carousel with pagination
+					pagination: true,
 		
-		// Carousel with pagination
-		pagination: true,
+					// Automatically click the Next button (automatic carousel)
+					autoSlide: true,
+     		   	 	// autoSlideInterval: 5000,
 		
-		// Automatically click the Next button (automatic carousel)
-		autoSlide: true,
-     // autoSlideInterval: 5000,
+			   	 	// Horizontal carousel
+			  	  	direction: "horizontal",
 		
-		// Horizontal carousel
-		direction: "horizontal",
+			   	 	// Looping carousel
+			   	 	loop: true ,
 		
-		// Looping carousel
-		loop: true ,
-		
-		// Carousel with screen / only 1 items
-		dispItems: 1,
-		} );
-	});
-</script>
+			   	 	// Carousel with screen / only 1 items
+			   	 	dispItems: 1,
+				} );
+			});
+		</script>
 
 </head>
 <body>
