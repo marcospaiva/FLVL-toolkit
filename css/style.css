@@ -155,8 +155,6 @@ div, h1 {
     	list-style: none outside none;
         width: 176px;	
 	}
-
-.carousel-wrap {}
 .slider-navigation .carousel-wrap {
     display: inline-block;
     margin: 0 5px 15px;
@@ -249,5 +247,3 @@ div, h1 {
     text-align: center;
     width: 100%;
 }
-/* End Slider-Simple */
->>>>>>> 4b8e6d6778818bb4cdf009a6db5d4a1993ab186e
