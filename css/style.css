@@ -66,7 +66,7 @@ div, h1 {
 	background: url("../img/icons.png") no-repeat scroll 4px -42px #EBEFEF;
 }
 	
-/*global search*/
+/* Global Search */
 #global_search fieldset label{background: url("../img/icons.png") no-repeat scroll 0 0 #f2f2f2;text-indent:-1000px;}
 #global_search{height:40px;}
 	#global_search fieldset{background-color:#f2f2f2;border:none;float:left;}
@@ -186,8 +186,7 @@ div, h1 {
     display: inline-block;	
 }
 	.slider-simple ul li {
-		/*float:left;*/
-    	list-style: none outside none;
+		list-style: none outside none;
     	width: 274px;
 	}
 .slider-simple .carousel-wrap {
