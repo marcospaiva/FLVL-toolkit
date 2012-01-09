@@ -10,7 +10,7 @@ body {
     background-color: #F8FAFA;
     font-family: Arial,Helvetica,sans-serif;
 }
-div, h1 {
+div, h1 , h2{
 	margin: 15px;
 }
 
@@ -139,10 +139,11 @@ div, h1 {
 }
 	.slider-navigation ul li {
 		float:left;
+		width:176px;
     	list-style: none outside none;
 	}
 .carousel-wrap {
-    border: 1px solid #B2B2B2;
+/*    border: 1px solid #B2B2B2;*/
     display: inline-block;
     margin: 0 5px 15px;
     vertical-align: middle;
