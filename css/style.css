@@ -243,7 +243,49 @@ div, h1 {
     top: -13%;	
 }
 .slider-simple .center-wrap {
+	position:absolute;
+    left: 2%;	
+}
+.slider-navigation a.jquery-carousel-right {
+	position:absolute;
+    right: 2%;	
+}
+.slider-navigation .center-wrap {
     margin: -10px auto 0;
     text-align: center;
     width: 100%;
 }
+/* End Slider-Navigation */
+
+/* Slider-Simple */
+.slider-simple {
+	position:relative;
+    display: inline-block;	
+}
+	.slider-simple ul li {
+		list-style: none outside none;
+    	width: 274px;
+	}
+.slider-simple .carousel-wrap {
+	background-color: #EBEFEF;
+    display: inline-block;
+    margin: 0 5px 15px;
+    vertical-align: middle;
+    width: 274px;
+}
+.slider-simple a.jquery-carousel-left {
+	position:absolute;
+    right: 10%;
+    top: -13%;	
+}
+.slider-simple a.jquery-carousel-right {
+	position:absolute;
+    right: 2%;
+    top: -13%;	
+}
+.slider-simple .center-wrap {
+    margin: -10px auto 0;
+    text-align: center;
+    width: 100%;
+}
+/* End Slider-Simple */
