@@ -9,7 +9,7 @@ $(function(){
    	 	loop: true ,
    	 	dispItems: 1,
 	} );
-	
+	$(".slider-simple").carousel( { }
 	$("#global_search").bind('mouseover mouseout',function(){
 	        $(this).children().children().toggleClass("submit_hover");
 	    })
