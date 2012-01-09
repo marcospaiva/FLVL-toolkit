@@ -7,14 +7,125 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/jquery.carousel.min.js"></script>
+<<<<<<< HEAD
+=======
+		<script type="text/javascript">
+    		$(function(){
+        		// Carousel div
+				$("div.slider-navigation").carousel( { 
+		
+					// Carousel with pagination
+					pagination: true,
+		
+					// Automatically click the Next button (automatic carousel)
+					autoSlide: true,
+     		   	 	autoSlideInterval: 4500,
+		
+			   	 	// Horizontal carousel
+			  	  	direction: "horizontal",
+		
+			   	 	// Looping carousel
+			   	 	loop: true ,
+		
+			   	 	// Carousel with screen / only 1 items
+			   	 	dispItems: 1,
+				} );
+			});
+		</script>
+
+		<script type="text/javascript">
+    		$(function(){
+        		// Carousel div
+				$("div.slider-simple").carousel( { 
+		
+					// Carousel with pagination
+					pagination: false,
+		
+					// Automatically click the Next button (automatic carousel)
+					autoSlide: false,
+     		   	 	autoSlideInterval: 4500,
+		
+			   	 	// Horizontal carousel
+			  	  	direction: "vertical",
+		
+			   	 	// Looping carousel
+			   	 	loop: false ,
+		
+			   	 	// Carousel with screen / only 1 items
+			   	 	dispItems: 3,
+
+			   	 	// Carousel with fading
+					effect: "fade",
+				} );
+			});
+		</script>
+>>>>>>> 4b8e6d6778818bb4cdf009a6db5d4a1993ab186e
 </head>
 
 <body>
 
+<<<<<<< HEAD
 <h1>Elementos de interface global.</h1>
 <hr>
 <h2>Busca global</h2>
 <div id="wrap_global_search">
+=======
+<h1 id="testes_com_elementos_de_interface">Testes com Elementos de interface</h1>
+
+<div class="left effect"></div>
+<div class="right effect"></div>
+
+<div class="slider-navigation">
+    <ul>
+        <li><img src="img/slide.jpg" width="176" height="198" alt="slide"></li>
+        <li><img src="img/slide2.jpg" width="176" height="198" alt="slide"></li>
+        <li><img src="img/slide3.jpg" width="176" height="198" alt="slide"></li>
+    </ul>
+</div>
+
+<div class="slider-simple">
+    <ul>
+        <li><p>01/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>02/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>03/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>04/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>05/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>06/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>07/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>08/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>09/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>10/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>11/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+        <li><p>12/12/11</p>
+		<p>Acampamento de Ano Novo<br>
+		Cachoeira Paulista - SP<p/><br></li>
+    </ul>
+</div>
+
+<div>
+>>>>>>> 4b8e6d6778818bb4cdf009a6db5d4a1993ab186e
     <form id="global_search"action="index_submit">
         <fieldset>
             <legend>Formulário de busca</legend>
