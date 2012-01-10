@@ -1,6 +1,6 @@
-//init app
-$(function(){
-	// Carousel div
+//init app
+$(function(){
+	// Carousel div
 	$("#side_loja .slider-navigation").carousel( {
 		pagination: true,
 		autoSlide: true,
@@ -8,7 +8,7 @@ $(function(){
   	  	direction: "horizontal",
    	 	loop: true ,
    	 	dispItems: 1,
-	} );
+	} );
 	$(".slider-simple").carousel( { 
 		pagination: false,
 		autoSlide: false,
@@ -21,6 +21,4 @@ $(function(){
 	$("#global_search").bind('mouseover mouseout',function(){
 	        $(this).children().children().toggleClass("submit_hover");
 	    })
-	
 });
-
