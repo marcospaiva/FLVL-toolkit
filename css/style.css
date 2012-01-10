@@ -71,15 +71,15 @@ div, h1 {
 	}
 
 /* Disable */
-.disabled {
+.disabled, .disabled:hover {
 	border: 1px solid #C8CCCC;
 	cursor: default;
 	background-color:#EBEFEF !important;
 }
-.jquery-carousel-left.disabled {
+.jquery-carousel-left.disabled, .jquery-carousel-left.disabled:hover {
 	background: url("../img/icons.png") no-repeat scroll -22px -42px #EBEFEF;
 }
-.jquery-carousel-right.disabled {
+.jquery-carousel-right.disabled, .jquery-carousel-right.disabled:hover {
 	background: url("../img/icons.png") no-repeat scroll 4px -42px #EBEFEF;
 }
 	
