@@ -14,6 +14,23 @@ div, h1 {
 	margin: 15px;
 }
 
+/* Select */
+::selection {
+	background:#0099FF;
+	color:#fff;
+}
+
+::-moz-selection {
+	background:#0099FF;
+	color:#fff;
+}
+
+::-webkit-selection {
+	background:#0099FF;
+	color:#fff;
+}
+/* End Select */
+
 /* Effect button */
 .effect {
     border: 1px solid #00548C;
