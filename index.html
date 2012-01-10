@@ -7,83 +7,54 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/jquery.carousel.min.js"></script>
-	</head>
+		<script type="text/javascript">
+    		$(function(){
+        		// Carousel div
+				$("div.slider-navigation").carousel( { 
+		
+					// Carousel with pagination
+					pagination: true,
+		
+					// Automatically click the Next button (automatic carousel)
+					autoSlide: true,
+     		   	 	// autoSlideInterval: 5000,
+		
+			   	 	// Horizontal carousel
+			  	  	direction: "horizontal",
+		
+			   	 	// Looping carousel
+			   	 	loop: true ,
+		
+			   	 	// Carousel with screen / only 1 items
+			   	 	dispItems: 1,
+				} );
+			});
+		</script>
+</head>
 <body>
-<h1>Elementos de interface global.</h1>
-<hr>
-<h2>Busca global</h2>
-<div id="wrap_global_search">
-    <form id="global_search"action="index_submit">
-        <fieldset>
-            <legend>Formulário de busca</legend>
-            <label for="search">Buscar</label>
-            <input type="type" name="search" id="search" value="">
-        </fieldset>
-        <input type="submit" name="search" class="submit" value="buscar">
-    </form>
-</div>
 
+<h1 id="testes_com_elementos_de_interface">Testes com Elementos de interface</h1>
 
-<div class="slider-simple">
+<div class="left effect"></div>
+<div class="right effect"></div>
+
+<div class="slider-navigation">
     <ul>
-        <li><p>01/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>02/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>03/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>04/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>05/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>06/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>07/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
-        <li><p>08/12/11</p>
-		<p>Acampamento de Ano Novo<br>
-		Cachoeira Paulista - SP<p/><br></li>
+        <li><img src="img/slide.jpg" width="176" height="198" alt="slide"></li>
+        <li><img src="img/slide2.jpg" width="176" height="198" alt="slide"></li>
+        <li><img src="img/slide3.jpg" width="176" height="198" alt="slide"></li>
     </ul>
 </div>
 
 <div>
-<hr>
-<div class="left effect"></div>
-<div class="right effect"></div>
-<hr>
-<h2>Widget Shopping Canção Nova</h2>
-<div id="side_loja" class="widget">
-    <h3>Shopping</h3>
-	<div class="slider-navigation">
-		<ul>
-        	<li>
-				<span class="foto-produto"><img src="img/slide.jpg" width="66" height="66" alt="slide"></span>
-				<span class="produto">Lorem ipsum dolor sit amet consectetur</span>
-				<span class="autor">Monsenhor Jonas Abib</span>
-				<span class="preco">R$20,00</span>
-			</li>
-        	<li>
-				<span class="foto-produto"><img src="img/slide.jpg" width="66" height="66" alt="slide"></span>
-				<span class="produto">Lorem ipsum dolor sit amet consectetur</span>
-				<span class="autor">Monsenhor Jonas Abib</span>
-				<span class="preco">R$20,00</span>
-			</li>
-        	<li>
-				<span class="foto-produto"><img src="img/slide.jpg" width="66" height="66" alt="slide"></span>
-				<span class="produto">Lorem ipsum dolor sit amet consectetur</span>
-				<span class="autor">Monsenhor Jonas Abib</span>
-				<span class="preco">R$20,00</span>
-			</li>
-    	</ul>		
-	</div>
+    <form id="global_search"action="index_submit">
+        <fieldset>
+            <legend>Formulário de busca</legend>
+            <label for="search">Buscar</label>
+            <input type="type" name="search" id="search" value="">        
+        </fieldset>
+        <input type="submit" name="search" class="submit" value="buscar">
+    </form>    
 </div>
-<hr>
 </body>
 </html>
