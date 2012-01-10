@@ -137,10 +137,7 @@ div, h1 {
 		border-top-right-radius: 2px;
 		border-bottom-right-radius: 2px;
 	}
-	#global_search .submit:active{background:#0099FF;-moz-box-shadow: inset 0px 1px 2px #00548C;
-	-webkit-box-shadow: inset 0px 1px 2px #00548C;
-	box-shadow: inset 0px 1px 2px #00548C;
-	border: 1px solid #00548C}
+	#global_search .submit:active{background:#0099FF;}
 	#global_search .submit_hover{background-color:#fff;border-color:#0099FF;}
 
 
